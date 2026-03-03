@@ -22,7 +22,6 @@ databaseChangeLog:
                   name: country_id
                   type: bigint
                   constraints:
-                    nullable: false
         - addForeignKeyConstraint:
             baseTableName: actors
             baseColumnNames: country_id
